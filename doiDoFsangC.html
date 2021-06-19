@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p> Doi do F sang do C</p>
+<input oninput="thaydoi()" onchange="thaydoi()" type="number" id="nhap">
+<p id="hienthi">C</p>
+<script>
+    function thaydoi() {
+      let a = document.getElementById('nhap').value;
+        document.getElementById('hienthi').innerHTML = (a - 32) / 1.8;
+    };
+</script>s
+</body>
+</html>
